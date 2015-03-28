@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.files       = ["api.rb"]
   s.homepage    =
     'http://github.com/pentestify/yankee'
-  s.license       = 'MIT'
+  s.license       = 'BSD'
 end
