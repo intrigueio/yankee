@@ -27,7 +27,7 @@ class Yankee < Sinatra::Base
       entries = Dir.entries('.').sort_by { |x| File.size(x) }
     end
 
-    out = []
+    out = ""
     out << "<table>"
     out << "<tr><td>Filename</td><td><a href=/?sort=>Size</a><td><td><a href=/?sort=Modified>Modified</a><td></tr><br/>"
     entries.map do |e|
