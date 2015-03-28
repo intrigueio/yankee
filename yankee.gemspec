@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'yankee'
-  s.version     = '0.0.3'
+  s.version     = '0.0.5'
   s.date        = '2015-03-28'
   s.summary     = "Webserver for your filesystem"
   s.description = "Webserver for your filesystem"
