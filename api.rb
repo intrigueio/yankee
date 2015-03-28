@@ -4,6 +4,7 @@ require 'sinatra'
 class Yankee < Sinatra::Base
 
   set :env, :production
+  set :bind, 0.0.0.0
   set :port, 8888
   set :static, true                             # set up static file routing
   #set :public, File.expand_path('..', __FILE__) # set up the static dir (with images/js/css inside)
