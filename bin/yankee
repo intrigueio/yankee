@@ -1,4 +1,14 @@
-#!/bin/bash
-DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+#!/usr/bin/env ruby
+#
+begin
+  require_relative '../api.rb'
+  # Run the app!
+  #
+  puts "Hello, you're running yankee from a gem!"
+  Yankee.run!
 
-ruby $DIR/../api.rb -p 9999
+rescue LoadError => e
+  #$:.unshift(path) if File.directory?(path) && !$:.include?(path)
+  puts "Unable to load api"
+  
+end
