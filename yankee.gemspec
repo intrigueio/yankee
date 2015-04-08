@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'yankee'
-  s.version     = '0.1.3'
+  s.version     = '0.1.5'
   s.date        = '2015-04-08'
   s.summary     = "Intrigue intelligence analysis"
   s.description = "Intrigue intelligence analysis"

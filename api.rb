@@ -13,12 +13,13 @@ class Yankee < Sinatra::Base
   $yankee_dir = File.dirname(__FILE__)
 
   path = "."
-  port = 8888
+  port = ENV["YANKEE_PORT"] || 8888
+  bind = "0.0.0.0"
 
   set :env, :production
-  set :bind, "0.0.0.0"
+  set :bind, bind
   set :port, port
-  set :static, true                             # set up static file routing
+  set :static, true # set up static file routing
   set :views, "#{$yankee_dir}/views"
   set :public_folder, File.expand_path(path) # set up the static dir (with images/js/css inside)
 
