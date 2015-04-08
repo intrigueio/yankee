@@ -2,15 +2,15 @@
 <body>
 <table>
   <tr>
-    <td>Task Log</td>
-    <td>JSON</td>
+    <td>Task</td>
+    <td>Raw JSON</td>
     <td><a href=/?sort=>Size</a></td>
     <td><a href=/?sort=Modified>Modified</a></td>
   </tr>
 <% @entries.map do |e| %>
   <tr>
-    <td><a href='<%= "#{e}/log" %>'> <%="#{e}"%> (Log) </a></td>
-    <td><a href='<%="#{e}"%>'>(JSON)</a></td>
+    <td><a href='<%= "#{e}/log" %>'> <%="#{e.split(".")[0..-2].join(".")}"%></a></td>
+    <td><a href='<%="#{e}"%>'>[Export]</a></td>
     <td><%="#{File.size(e)}"%></td>
     <td><%="#{File.mtime(e)}"%></td>
   </tr>

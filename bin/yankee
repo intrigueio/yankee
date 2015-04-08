@@ -10,5 +10,5 @@ begin
 rescue LoadError => e
   #$:.unshift(path) if File.directory?(path) && !$:.include?(path)
   puts "Unable to load api"
-  
+
 end

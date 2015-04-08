@@ -12,15 +12,15 @@ class Yankee < Sinatra::Base
 
   $yankee_dir = File.dirname(__FILE__)
 
+  path = "."
+  port = 8888
+
   set :env, :production
   set :bind, "0.0.0.0"
-  set :port, 8888
+  set :port, port
   set :static, true                             # set up static file routing
   set :views, "#{$yankee_dir}/views"
-  set :public_folder, File.expand_path(File.expand_path(".")) # set up the static dir (with images/js/css inside)
-
-  #set :views,  File.expand_path('../views', __FILE__) # set up the views dir
-  #set :haml, { :format => :html5 }                    # if you use haml
+  set :public_folder, File.expand_path(path) # set up the static dir (with images/js/css inside)
 
   before do
     #raise "XXX - SECURITY - You should set an API key!"
@@ -30,10 +30,13 @@ class Yankee < Sinatra::Base
   get '/' do
     sort = params["sort"]
 
+    # Grab all files, minus hidden files
+    files = Dir.entries(path).reject{|entry| entry =~ /^\..*$/}
+
     if sort == "Modified"
-      @entries = Dir.entries('.').sort_by{ |x| File.mtime(x) }.reverse
+      @entries = files.sort_by{ |x| File.mtime(x) }.reverse
     else
-      @entries = Dir.entries('.').sort_by{ |x| File.size(x) }.reverse
+      @entries = files.sort_by{ |x| File.size(x) }.reverse
     end
 
     erb :index
