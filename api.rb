@@ -35,16 +35,26 @@ class Yankee < Sinatra::Base
 
     if sort == "Modified"
       @entries = files.sort_by{ |x| File.mtime(x) }.reverse
-    else
+    elsif sort == "Size"
       @entries = files.sort_by{ |x| File.size(x) }.reverse
+    #elsif sort == "Name"
+    #  @entries = files.sort_by{ |x| x }
+    else
+      @entries = files.sort_by{ |x| x }
     end
 
     erb :index
   end
 
   get '/:filename/log' do
-    @x = JSON.parse(File.open("#{params[:filename]}").read)
-   erb :log
+
+    if paraams[:filename] =~ /.json/
+      @x = JSON.parse(File.open("#{params[:filename]}").read)
+      erb :log
+    else
+      "Unable to open this file type"
+    end
+
   end
 
 end
