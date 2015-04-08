@@ -48,7 +48,7 @@ class Yankee < Sinatra::Base
 
   get '/:filename/log' do
 
-    if paraams[:filename] =~ /.json/
+    if params[:filename] =~ /.json/
       @x = JSON.parse(File.open("#{params[:filename]}").read)
       erb :log
     else
