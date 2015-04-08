@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name        = 'yankee'
-  s.version     = '0.0.8'
+  s.version     = '0.1.1'
   s.date        = '2015-03-28'
-  s.summary     = "Webserver for your filesystem"
-  s.description = "Webserver for your filesystem"
+  s.summary     = "Intrigue intelligence analysis"
+  s.description = "Intrigue intelligence analysis"
   s.authors     = ["jcran"]
   s.email       = 'jcran@pentestify.com'
   s.files       = ["api.rb"]

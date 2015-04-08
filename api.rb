@@ -1,12 +1,22 @@
 require 'rubygems'
 require 'sinatra'
+require 'json'
 
 class Yankee < Sinatra::Base
+
+  helpers do
+    def h(text)
+      Rack::Utils.escape_html(text)
+    end
+  end
+
+  $yankee_dir = File.dirname(__FILE__)
 
   set :env, :production
   set :bind, "0.0.0.0"
   set :port, 8888
   set :static, true                             # set up static file routing
+  set :views, "#{$yankee_dir}/views"
   set :public_folder, File.expand_path(File.expand_path(".")) # set up the static dir (with images/js/css inside)
 
   #set :views,  File.expand_path('../views', __FILE__) # set up the views dir
@@ -18,24 +28,20 @@ class Yankee < Sinatra::Base
   end
 
   get '/' do
-
     sort = params["sort"]
 
     if sort == "Modified"
-      entries = Dir.entries('.').sort_by{ |x| File.mtime(x) }.reverse
+      @entries = Dir.entries('.').sort_by{ |x| File.mtime(x) }.reverse
     else
-      entries = Dir.entries('.').sort_by{ |x| File.size(x) }.reverse
+      @entries = Dir.entries('.').sort_by{ |x| File.size(x) }.reverse
     end
 
-    #entries = entries[0..100]
-
-    out = ""
-    out << "<html><body><table>"
-    out << "<tr><td>Filename</td><td><a href=/?sort=>Size</a><td><td><a href=/?sort=Modified>Modified</a><td></tr>"
-    entries.map do |e|
-      out << "<tr><td><a href=\"#{e}\">#{e}</a></td><td>#{File.size(e)}<td><td>#{File.mtime(e)}<td></tr>"
-    end
-    out << "</table></body></html>"
-  out
+    erb :index
   end
+
+  get '/:filename/log' do
+    @x = JSON.parse(File.open("#{params[:filename]}").read)
+   erb :log
+  end
+
 end
