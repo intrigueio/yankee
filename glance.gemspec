@@ -1,14 +1,13 @@
 Gem::Specification.new do |s|
-  s.name        = 'yankee'
-  s.version     = '0.1.7'
-  s.date        = '2015-04-08'
-  s.summary     = "Intrigue intelligence analysis"
-  s.description = "Intrigue intelligence analysis"
+  s.name        = 'glance'
+  s.version     = '0.1.0'
+  s.date        = '2016-04-09'
+  s.summary     = "Intrigue Glance"
+  s.description = "Intrigue Glance"
   s.authors     = ["jcran"]
-  s.email       = 'jcran@pentestify.com'
-  s.files       = ["api.rb"]
-  s.homepage    =
-    'http://github.com/pentestify/yankee'
+  s.email       = 'jcran@intrigue.io'
+  s.files       = ["glance.rb"]
+  s.homepage    = 'http://github.com/intrigueio/glance'
   s.license       = 'BSD'
 
   s.files         = `git ls-files`.split("\n")

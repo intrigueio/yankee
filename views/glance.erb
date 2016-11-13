@@ -1,0 +1,7 @@
+<span class="like-pre">
+  <table>
+<% @x["entities"].each do |entity| %>
+  <tr><td><%= "#{entity["type"].split(":").last} #{entity["name"]}"%></td></tr>
+  </table>
+<% end %>
+</span>

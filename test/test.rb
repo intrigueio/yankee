@@ -1,7 +1,7 @@
 # test.rb
 require_relative 'test_helper'
 
-class ApiTest < MiniTest::Test
+class GlanceTest < MiniTest::Test
 
   include Rack::Test::Methods
 

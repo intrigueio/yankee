@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 #
 begin
-  require_relative '../api.rb'
+  require_relative '../glance.rb'
   # Run the app!
   #
-  puts "Hello, you're running yankee from a gem!"
-  Yankee.run!
+  puts "Hello, you're running glance from a gem!"
+  Glance.run!
 
 rescue LoadError => e
   #$:.unshift(path) if File.directory?(path) && !$:.include?(path)

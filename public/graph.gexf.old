@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+    <meta lastmodifieddate="2009-03-20">
+        <creator>intrigue.io</creator>
+        <description>generated graph</description>
+    </meta>
+    <graph defaultedgetype="undirected">
+        <attributes class="node">
+            <attribute id="0" title="name" type="string"/>
+            <attribute id="1" title="type" type="string"/>
+        </attributes>
+        <nodes>
+
+            <node id="3814" label="140.205.32.5">
+              <attvalues>
+                <attvalue for="0" value="140.205.32.5"/>
+                <attvalue for="1" value="Intrigue::Entity::IpAddress"/>
+              </attvalues>
+            </node>
+
+            <node id="3932" label="140.205.94.193">
+              <attvalues>
+                <attvalue for="0" value="140.205.94.193"/>
+                <attvalue for="1" value="Intrigue::Entity::IpAddress"/>
+              </attvalues>
+            </node>
+
+            <node id="3933" label="140.205.130.99">
+              <attvalues>
+                <attvalue for="0" value="140.205.130.99"/>
+                <attvalue for="1" value="Intrigue::Entity::IpAddress"/>
+              </attvalues>
+            </node>
+
+            <node id="3944" label="140.205.94.193:80/tcp">
+              <attvalues>
+                <attvalue for="0" value="140.205.94.193:80/tcp"/>
+                <attvalue for="1" value="Intrigue::Entity::NetSvc"/>
+              </attvalues>
+            </node>
+
+            <node id="3945" label="http://140.205.94.193:80">
+              <attvalues>
+                <attvalue for="0" value="http://140.205.94.193:80"/>
+                <attvalue for="1" value="Intrigue::Entity::Uri"/>
+              </attvalues>
+            </node>
+
+            <node id="3946" label="140.205.94.193:443/tcp">
+              <attvalues>
+                <attvalue for="0" value="140.205.94.193:443/tcp"/>
+                <attvalue for="1" value="Intrigue::Entity::NetSvc"/>
+              </attvalues>
+            </node>
+
+            <node id="3947" label="https://140.205.94.193:443">
+              <attvalues>
+                <attvalue for="0" value="https://140.205.94.193:443"/>
+                <attvalue for="1" value="Intrigue::Entity::Uri"/>
+              </attvalues>
+            </node>
+
+            <node id="3524" label="tmall.com">
+              <attvalues>
+                <attvalue for="0" value="tmall.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3949" label="taobao.com">
+              <attvalues>
+                <attvalue for="0" value="taobao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3951" label="alitrip.com">
+              <attvalues>
+                <attvalue for="0" value="alitrip.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3952" label="aliyun.com">
+              <attvalues>
+                <attvalue for="0" value="aliyun.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3954" label="chi.tmall.com">
+              <attvalues>
+                <attvalue for="0" value="chi.tmall.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3956" label="m.alibaba.com">
+              <attvalues>
+                <attvalue for="0" value="m.alibaba.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3957" label="chi.taobao.com">
+              <attvalues>
+                <attvalue for="0" value="chi.taobao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3959" label="3c.tmall.com">
+              <attvalues>
+                <attvalue for="0" value="3c.tmall.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3962" label="1688.com">
+              <attvalues>
+                <attvalue for="0" value="1688.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3964" label="tmall.hk">
+              <attvalues>
+                <attvalue for="0" value="tmall.hk"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3967" label="m.tmall.com">
+              <attvalues>
+                <attvalue for="0" value="m.tmall.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3969" label="alibaba.com">
+              <attvalues>
+                <attvalue for="0" value="alibaba.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3972" label="cainiao.com.cn">
+              <attvalues>
+                <attvalue for="0" value="cainiao.com.cn"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3975" label="cainiao.com">
+              <attvalues>
+                <attvalue for="0" value="cainiao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3978" label="china.taobao.com">
+              <attvalues>
+                <attvalue for="0" value="china.taobao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3981" label="dingtalk.com">
+              <attvalues>
+                <attvalue for="0" value="dingtalk.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3985" label="etao.com">
+              <attvalues>
+                <attvalue for="0" value="etao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3990" label="m.alitrip.com">
+              <attvalues>
+                <attvalue for="0" value="m.alitrip.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3991" label="jia.taobao.com">
+              <attvalues>
+                <attvalue for="0" value="jia.taobao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3994" label="m.1688.com">
+              <attvalues>
+                <attvalue for="0" value="m.1688.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="3999" label="ju.taobao.com">
+              <attvalues>
+                <attvalue for="0" value="ju.taobao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4006" label="xiami.com">
+              <attvalues>
+                <attvalue for="0" value="xiami.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4013" label="aliqin.tmall.com">
+              <attvalues>
+                <attvalue for="0" value="aliqin.tmall.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4020" label="m.etao.com">
+              <attvalues>
+                <attvalue for="0" value="m.etao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4023" label="juhuasuan.com">
+              <attvalues>
+                <attvalue for="0" value="juhuasuan.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4028" label="m.cainiao.com">
+              <attvalues>
+                <attvalue for="0" value="m.cainiao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4032" label="yao.95095.com">
+              <attvalues>
+                <attvalue for="0" value="yao.95095.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4038" label="jia.tmall.com">
+              <attvalues>
+                <attvalue for="0" value="jia.tmall.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4041" label="ttpod.com">
+              <attvalues>
+                <attvalue for="0" value="ttpod.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4046" label="food.tmall.com">
+              <attvalues>
+                <attvalue for="0" value="food.tmall.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4054" label="m.yao.95095.com">
+              <attvalues>
+                <attvalue for="0" value="m.yao.95095.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4062" label="dongting.com">
+              <attvalues>
+                <attvalue for="0" value="dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4066" label="trip.taobao.com">
+              <attvalues>
+                <attvalue for="0" value="trip.taobao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4071" label="lw.aliimg.com">
+              <attvalues>
+                <attvalue for="0" value="lw.aliimg.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4089" label="m.tmall.hk">
+              <attvalues>
+                <attvalue for="0" value="m.tmall.hk"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4095" label="/C=CN/ST=ZheJiang/L=HangZhou/O=Alibaba (China) Technology Co., Ltd./CN=*.tmall.com">
+              <attvalues>
+                <attvalue for="0" value="/C=CN/ST=ZheJiang/L=HangZhou/O=Alibaba (China) Technology Co., Ltd./CN=*.tmall.com"/>
+                <attvalue for="1" value="Intrigue::Entity::SslCertificate"/>
+              </attvalues>
+            </node>
+
+            <node id="4113" label="140.205.76.111">
+              <attvalues>
+                <attvalue for="0" value="140.205.76.111"/>
+                <attvalue for="1" value="Intrigue::Entity::IpAddress"/>
+              </attvalues>
+            </node>
+
+            <node id="4121" label="140.205.76.111:80/tcp">
+              <attvalues>
+                <attvalue for="0" value="140.205.76.111:80/tcp"/>
+                <attvalue for="1" value="Intrigue::Entity::NetSvc"/>
+              </attvalues>
+            </node>
+
+            <node id="4122" label="http://140.205.76.111:80">
+              <attvalues>
+                <attvalue for="0" value="http://140.205.76.111:80"/>
+                <attvalue for="1" value="Intrigue::Entity::Uri"/>
+              </attvalues>
+            </node>
+
+            <node id="4123" label="140.205.76.111:443/tcp">
+              <attvalues>
+                <attvalue for="0" value="140.205.76.111:443/tcp"/>
+                <attvalue for="1" value="Intrigue::Entity::NetSvc"/>
+              </attvalues>
+            </node>
+
+            <node id="4124" label="https://140.205.76.111:443">
+              <attvalues>
+                <attvalue for="0" value="https://140.205.76.111:443"/>
+                <attvalue for="1" value="Intrigue::Entity::Uri"/>
+              </attvalues>
+            </node>
+
+            <node id="4080" label="m.taobao.com">
+              <attvalues>
+                <attvalue for="0" value="m.taobao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4126" label="/C=CN/ST=Zhejiang/L=Hangzhou/O=Taobao(China) Software Co., Ltd/OU=RDC/CN=*.m.taobao.com">
+              <attvalues>
+                <attvalue for="0" value="/C=CN/ST=Zhejiang/L=Hangzhou/O=Taobao(China) Software Co., Ltd/OU=RDC/CN=*.m.taobao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::SslCertificate"/>
+              </attvalues>
+            </node>
+
+            <node id="3931" label="140.205.0.0/16">
+              <attvalues>
+                <attvalue for="0" value="140.205.0.0/16"/>
+                <attvalue for="1" value="Intrigue::Entity::NetBlock"/>
+              </attvalues>
+            </node>
+
+            <node id="4133" label="s.lw.aliimg.com">
+              <attvalues>
+                <attvalue for="0" value="s.lw.aliimg.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4140" label="m.trip.taobao.com">
+              <attvalues>
+                <attvalue for="0" value="m.trip.taobao.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4148" label="account.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="account.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4150" label="admin.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="admin.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4153" label="api.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="api.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4159" label="bbs.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="bbs.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4168" label="ci.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="ci.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4171" label="club.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="club.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4199" label="fm.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="fm.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4208" label="gw.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="gw.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4210" label="h.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="h.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4224" label="ldap.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="ldap.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4229" label="m.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="m.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4234" label="mail.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="mail.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4244" label="mv.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="mv.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4255" label="online.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="online.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4288" label="search.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="search.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4295" label="sso.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="sso.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4317" label="www.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="www.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4370" label="admin.online.dongting.com">
+              <attvalues>
+                <attvalue for="0" value="admin.online.dongting.com"/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4380" label="106.11.54.127">
+              <attvalues>
+                <attvalue for="0" value="106.11.54.127"/>
+                <attvalue for="1" value="Intrigue::Entity::IpAddress"/>
+              </attvalues>
+            </node>
+
+            <node id="4387" label="121.43.103.233">
+              <attvalues>
+                <attvalue for="0" value="121.43.103.233"/>
+                <attvalue for="1" value="Intrigue::Entity::IpAddress"/>
+              </attvalues>
+            </node>
+
+            <node id="4393" label="121.0.0.0/8">
+              <attvalues>
+                <attvalue for="0" value="121.0.0.0/8"/>
+                <attvalue for="1" value="Intrigue::Entity::NetBlock"/>
+              </attvalues>
+            </node>
+
+            <node id="4408" label="140.205.160.62">
+              <attvalues>
+                <attvalue for="0" value="140.205.160.62"/>
+                <attvalue for="1" value="Intrigue::Entity::IpAddress"/>
+              </attvalues>
+            </node>
+
+            <node id="4413" label="140.205.160.62:80/tcp">
+              <attvalues>
+                <attvalue for="0" value="140.205.160.62:80/tcp"/>
+                <attvalue for="1" value="Intrigue::Entity::NetSvc"/>
+              </attvalues>
+            </node>
+
+            <node id="4414" label="http://140.205.160.62:80">
+              <attvalues>
+                <attvalue for="0" value="http://140.205.160.62:80"/>
+                <attvalue for="1" value="Intrigue::Entity::Uri"/>
+              </attvalues>
+            </node>
+
+            <node id="4415" label="140.205.160.62:443/tcp">
+              <attvalues>
+                <attvalue for="0" value="140.205.160.62:443/tcp"/>
+                <attvalue for="1" value="Intrigue::Entity::NetSvc"/>
+              </attvalues>
+            </node>
+
+            <node id="4416" label="https://140.205.160.62:443">
+              <attvalues>
+                <attvalue for="0" value="https://140.205.160.62:443"/>
+                <attvalue for="1" value="Intrigue::Entity::Uri"/>
+              </attvalues>
+            </node>
+
+            <node id="4426" label="192.168.1.182">
+              <attvalues>
+                <attvalue for="0" value="192.168.1.182"/>
+                <attvalue for="1" value="Intrigue::Entity::IpAddress"/>
+              </attvalues>
+            </node>
+
+            <node id="4402" label="192.168.0.0/16">
+              <attvalues>
+                <attvalue for="0" value="192.168.0.0/16"/>
+                <attvalue for="1" value="Intrigue::Entity::NetBlock"/>
+              </attvalues>
+            </node>
+
+            <node id="4397" label="192.168.1.17">
+              <attvalues>
+                <attvalue for="0" value="192.168.1.17"/>
+                <attvalue for="1" value="Intrigue::Entity::IpAddress"/>
+              </attvalues>
+            </node>
+
+            <node id="4447" label="117.135.154.103">
+              <attvalues>
+                <attvalue for="0" value="117.135.154.103"/>
+                <attvalue for="1" value="Intrigue::Entity::IpAddress"/>
+              </attvalues>
+            </node>
+
+            <node id="4450" label="">
+              <attvalues>
+                <attvalue for="0" value=""/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4454" label="abc.">
+              <attvalues>
+                <attvalue for="0" value="abc."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4455" label="ads.">
+              <attvalues>
+                <attvalue for="0" value="ads."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4456" label="ai.">
+              <attvalues>
+                <attvalue for="0" value="ai."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4458" label="android.">
+              <attvalues>
+                <attvalue for="0" value="android."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4459" label="app.">
+              <attvalues>
+                <attvalue for="0" value="app."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4462" label="buy.">
+              <attvalues>
+                <attvalue for="0" value="buy."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4463" label="channel.">
+              <attvalues>
+                <attvalue for="0" value="channel."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4466" label="cm.">
+              <attvalues>
+                <attvalue for="0" value="cm."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4477" label="dev.">
+              <attvalues>
+                <attvalue for="0" value="dev."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4478" label="dk.">
+              <attvalues>
+                <attvalue for="0" value="dk."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4480" label="docs.">
+              <attvalues>
+                <attvalue for="0" value="docs."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4483" label="george.">
+              <attvalues>
+                <attvalue for="0" value="george."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4484" label="gg.">
+              <attvalues>
+                <attvalue for="0" value="gg."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4493" label="je.">
+              <attvalues>
+                <attvalue for="0" value="je."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4495" label="juniper.">
+              <attvalues>
+                <attvalue for="0" value="juniper."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4499" label="new.">
+              <attvalues>
+                <attvalue for="0" value="new."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4500" label="open.">
+              <attvalues>
+                <attvalue for="0" value="open."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4501" label="page.">
+              <attvalues>
+                <attvalue for="0" value="page."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4506" label="pay.">
+              <attvalues>
+                <attvalue for="0" value="pay."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4510" label="pn.">
+              <attvalues>
+                <attvalue for="0" value="pn."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4515" label="secure.">
+              <attvalues>
+                <attvalue for="0" value="secure."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4516" label="secure.dev.">
+              <attvalues>
+                <attvalue for="0" value="secure.dev."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4520" label="store.">
+              <attvalues>
+                <attvalue for="0" value="store."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4524" label="tk.">
+              <attvalues>
+                <attvalue for="0" value="tk."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4527" label="to.">
+              <attvalues>
+                <attvalue for="0" value="to."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4529" label="ups.">
+              <attvalues>
+                <attvalue for="0" value="ups."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4532" label="uz.">
+              <attvalues>
+                <attvalue for="0" value="uz."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4538" label="ws.">
+              <attvalues>
+                <attvalue for="0" value="ws."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4540" label="www.ads.">
+              <attvalues>
+                <attvalue for="0" value="www.ads."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4543" label="www.chat.">
+              <attvalues>
+                <attvalue for="0" value="www.chat."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4544" label="www.dev.">
+              <attvalues>
+                <attvalue for="0" value="www.dev."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+            <node id="4546" label="www.jobs.">
+              <attvalues>
+                <attvalue for="0" value="www.jobs."/>
+                <attvalue for="1" value="Intrigue::Entity::DnsRecord"/>
+              </attvalues>
+            </node>
+
+        </nodes>
+        <edges>
+
+
+              <edge id="0" source="3524" target="3814" label="dns_brute_sub"/>
+
+              <edge id="1" source="3814" target="3931" label="whois"/>
+
+              <edge id="2" source="3524" target="3932" label="dns_lookup_forward"/>
+
+              <edge id="3" source="3524" target="3933" label="dns_lookup_forward"/>
+
+        </edges>
+    </graph>
+</gexf>

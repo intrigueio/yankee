@@ -1,20 +1,3 @@
-<html>
 <body>
-<table>
-  <tr>
-    <td><a href=/?sort=Name>Name</a></td>
-    <td>Export</td>
-    <td><a href=/?sort=Size>Size</a></td>
-    <td><a href=/?sort=Modified>Modified</a></td>
-  </tr>
-<% @entries.map do |e| %>
-  <tr>
-    <td><a href='<%= "#{e}/log" %>'> <%="#{e.split(".")[0..-2].join(".")}"%></a></td>
-    <td><a href='<%="#{e}"%>'>[Export]</a></td>
-    <td><%="#{File.size(e)}"%></td>
-    <td><%="#{File.mtime(e)}"%></td>
-  </tr>
-<% end %>
-</table>
+  just browse to a domain
 </body>
-</html>

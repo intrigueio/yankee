@@ -1,3 +1,3 @@
-require_relative 'api'
+require_relative './glance'
 
-run Rack::URLMap.new('/' => Sinatra::Application)
+run Rack::URLMap.new('/' => GlanceApp)

@@ -1,0 +1,3 @@
+{"nodes":[
+  {"size": 3, "x": 0, "y": 0,  "label": "weibo.com", "type":"Intrigue::Entity::DnsRecord","id":3522,"name":"weibo.com","details":{"name":"weibo.com"},"project_id":70},
+  {"size": 3,"x": 4, "y": 4, "label": "1.weibo.com", "type":"Intrigue::Entity::DnsRecord","id":3533,"name":"1.weibo.com","details":{"name":"1.weibo.com","ip_address":"180.149.153.253"},"project_id":70}],"edges":[{"id":1, "target": 3522, "source":3533}]}
